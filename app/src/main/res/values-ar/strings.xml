@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+    <string name="Purchase">شراء</string>
+    <string name="app_name">POS V 0.0.5</string>
+        <string name="title_activity_main2">Main2Activity</string>
+        <string name="title_activity_service">ServiceActivity</string>
+        <string-array name="planets_array">
+            <item>(Select currency)</item>
+            <item>SDG</item>
+            <item>Venus</item>
+            <item>Earth</item>
+            <item>Mars</item>
+            <item>Jupiter</item>
+            <item>Saturn</item>
+            <item>Uranus</item>
+            <item>Neptune</item>
+        </string-array>
+
+        <string-array name="oprators_topup_array">
+            <item>(المشغل)</item>
+            <item>زين</item>
+            <item>ام تي ان</item>
+            <item>سوداني</item>
+        </string-array>
+        <string-array name="oprators_billpayemnt_array">
+            <item>(المشغل)</item>
+            <item>زين</item>
+            <item>ام تي ان</item>
+            <item>سوداني</item>
+        </string-array>
+
+        <string-array name="acadmin_array">
+            <item>(نوع التقديم)</item>
+            <item>القبول الدور الأول – قبول عام</item>
+            <item>القبول الخاص</item>
+            <item>قبول أبناء العاملين</item>
+            <item>القبول العام الدور الثاني</item>
+            <item>شواغر القبول الخاص</item>
+            <item>مباشر التعليم الأهلي</item>
+            <item>دبلوم حكومي</item>
+
+        </string-array>
+        <string-array name="services_array">
+            <item>(Select Service)</item>
+            <item>    purchase</item>
+            <item>   Purchase With Cash Back</item>
+            <item>   Balance Inquiry</item>
+            <item>   Mini Statement</item>
+            <item>   Bill Payment</item>
+            <item>   Bill Prepayment</item>
+            <item> Account Transfer</item>
+            <item> Card Transfer</item>
+            <item> Cash-in</item>
+            <item> Refund</item>
+            <item> Generate Voucher</item>
+            <item> Cash-out Voucher</item>
+            <item> Bill Inquiry</item>
+            <item> Cash out</item>
+            <item> Request eGovernment service</item>
+            <item> Purchase Mobile</item>
+        </string-array>
+        <string-array name="course_array">
+            <item>(نوع الشهادة)</item>
+            <item>الأكاديمي</item>
+            <item>الزراعي</item>
+            <item>التجاري</item>
+            <item>الصناعي</item>
+            <item>النسوي</item>
+            <item>الأهلية</item>
+            <item>القراءات</item>
+        </string-array>
+        <string name="please_wait">الرجاء الانتظار</string>
+
+        <!--Transactions Field Names in English-->
+        <string name="Transaction_amount">مبلغ الحركة</string>
+        <string name="Transaction_CurrencyCode">العملة</string>
+        <string name="cashBackAmount">مبلغ النقدية</string>
+        <string name="course_ID">المساق:</string>
+        <string name="Form_kind">نوع الاستمارة:</string>
+        <string name="INVOICENUMBER">رقم الفاتورة:</string>
+        <string name="meter_number">رقم العداد:</string>
+        <string name="newPIN">الرمز السري الجديد</string>
+    <string name="con_newPIN">تاكيد الرمز السري الجديد </string>
+        <string name="originalTranSystemTraceAuditNumber">رقم الايصال</string>
+        <string name="phone_number">رقم الهاتف:</string>
+        <string name="seat_number">رقم الجلوس:</string>
+    <string name="Student_number">رقم الطالب:</string>
+        <string name="serviceId">الخدمة</string>
+        <string name="operator">المشغل:</string>
+        <string name="student_name">اسم الطالب:</string>
+        <string name="toCard">الي بطاقة:</string>
+        <string name="voucherNumber">رقم الحوالة:</string>
+        <string name="bank_code">الرمز البنكي:</string>
+    <string name="toaccount">الي رقم حساب</string>
+
+        <!--Transactions Field Error Names in English-->
+        <string name="Transaction_amount_error">مبلغ غير صالح</string>
+        <string name="cashBackAmount_error">مبلغ نقدية شراء غير صالح</string>
+        <string name="INVOICENUMBER_error">رقم ايصال غير صالح</string>
+        <string name="meter_number_error">رقم عداد غير صالح(04XXXXXXXXXXX)</string>
+        <string name="newPIN_error">رمز سري جديد غير صالح</string>
+    <string name="toaccount_error">رقم حساب غير صحيح</string>
+    <string name="con_newPIN_error">عدم تطابق الرمز سري </string>
+        <string name="originalTranSystemTraceAuditNumber_error">رقم الإيصال غير صالح</string>
+        <string name="phone_number_error">رقم الهاتف غير صحيح(0XXXXXXXXX)</string>
+    <string name="mob_number_error">رقم الهاتف غير صحيح(249XXXXXXXXX)</string>
+        <string name="seat_number_error">رقم الجلوس غير صالح</string>
+        <string name="serviceId_error">خدمة غير صالحة</string>
+        <string name="student_name_error">اسم الطالب غير صالح</string>
+        <string name="toCard_error">بطاقة غير صالحة</string>
+        <string name="voucherNumber_error">رقم حوالة غير صالح</string>
+        <string name="bank_code_error">رمز البنك غير صالح</string>
+        <!-- Transactions-->
+        <string name="Purchase_with_cash_back">نقدية مع الشراء</string>
+        <string name="Purchase_Mobile">شراء بحساب الموبايل</string>
+        <string name="Reversal">عكس شراء</string>
+        <string name="Balance_Inquiry">إستعلام عن الرصيد</string>
+        <string name="Mini_Statement">كشف حساب مصغر</string>
+        <string name="Refund">إعادة مال</string>
+    <string name="account_tranfer">التحويل لحساب</string>
+        <string name="Mobile_topUp">إعادة شحن الرصيد</string>
+        <string name="Mobile_bill_payment">سداد الفاتورة</string>
+        <string name="electricity">شراء كهرباء</string>
+    <string name="Mobile_bill_inq">استعلام عن الفاتورة</string>
+    <string name="electricity_inq">استعلام عن فاتورة كهرباء</string>
+        <string name="mohe_inq">استعلام عن فاتورة التعليم العالي</string>
+    <string name="mohe_arab_inq">استعلام عن فاتورة الشهادة عربية</string>
+    <string name="e15_inq">استعلام عن فاتورة ايصال 15</string>
+    <string name="Customs_inq">استعلام عن فاتورة الجمارك</string>
+    <string name="mohe">التقديم للتعليم العالي</string>
+    <string name="mohe_arab">التقديم للتعليم العالي شهادة عربية</string>
+    <string name="e15">ايصال 15</string>
+    <string name="Customs">الجمارك</string>
+        <string name="card_ransfer">التحويل لبطاقة</string>
+        <string name="Cash_in">تغذية الحساب</string>
+        <string name="generate_voucher">إرسال حوالة</string>
+        <string name="cash_out_voucher">إستلام حوالة</string>
+        <string name="cash_out_voucher_amount">إستلام حوالة </string>
+        <string name="pin_change">تغيير الرقم السري</string>
+        <string name="cash_in_voucher">توريد حوالة</string>
+        <string name="cash_out">سحب نقدي</string>
+
+    <string name="TotalBill">مبلغ الفاتورة الكلي:</string>
+    <string name="BilledAmount">مبلغ الفاتورة:</string>
+    <string name="LastInvoiceDate">تاريخ الفاتورة:</string>
+    <string name="ContractNumber">رقم التعاقد:</string>
+    <string name="UnbilledAmount">المبلغ الغير مفوتر:</string>
+
+
+        <string name="pin_content_desc">PIN input field</string>
+        <string name="pin_label_text">الرمز السري</string>
+        <string name="magnetic_card_test">Magnetic Card</string>
+        <string name="track1">Track1</string>
+        <string name="track2">Track2</string>
+        <string name="track3">Track3</string>
+        <string name="read_card">Swipe Card</string>
+        <string name="quit">quit</string>
+        <string name="error_open_magnetic_card">Could not open magnetic card device</string>
+        <string name="error">Error</string>
+        <string name="title_activity_sacn_card">SacnCardActivity</string>
+        <string name="dummy_button">Dummy Button</string>
+        <string name="dummy_content">DUMMY\nCONTENT</string>
+        <string name="title_activity_settings">Settings</string>
+
+        <!-- Strings related to Recpit -->
+        <string name="re_pruches">************** شراء *************</string>
+        <string name="re_date">الوقت:</string>
+        <string name="re_time">التاريخ:</string>
+        <string name="re_merchant_name">رقم التاجر:</string>
+        <string name="re_termianlId">رقم الجهاز:</string>
+        <string name="re_pan">رقم البطاقة :</string>
+        <string name="re_card_holderName">إسم صاحب البطاقة:</string>
+        <string name="re_exp_date">تاريخ صلاحية البطاقة:</string>
+        <string name="re_success">**********المعاملة ناجحة*********</string>
+        <string name="re_tran_id">رقم المعاملة:</string>
+        <string name="re_re_num">رقم الإيصال:</string>
+        <string name="re_tran_amount">المبلغ:</string>
+        <string name="re_ref_num">رقم المرجع:</string>
+        <string name="re_auth_code">رقم التحقق:</string>
+        <string name="re_clients">********** نسخة الزبون **********</string>
+        <!-- Example General settings -->
+        <string name="pref_header_general">General</string>
+
+        <string name="pref_title_social_recommendations">Enable social recommendations</string>
+        <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+        <string name="pref_title_display_name">Display name</string>
+        <string name="pref_default_display_name">John Smith</string>
+
+        <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+        <string-array name="pref_example_list_titles">
+            <item>Always</item>
+            <item>When possible</item>
+            <item>Never</item>
+        </string-array>
+        <string-array name="pref_example_list_values">
+            <item>1</item>
+            <item>0</item>
+            <item>-1</item>
+        </string-array>
+
+        <!-- Example settings for Data & Sync -->
+        <string name="pref_header_data_sync">Data &amp; sync</string>
+
+        <string name="pref_title_sync_frequency">Sync frequency</string>
+        <string-array name="pref_sync_frequency_titles">
+            <item>15 minutes</item>
+            <item>30 minutes</item>
+            <item>1 hour</item>
+            <item>3 hours</item>
+            <item>6 hours</item>
+            <item>Never</item>
+        </string-array>
+        <string-array name="pref_sync_frequency_values">
+            <item>15</item>
+            <item>30</item>
+            <item>60</item>
+            <item>180</item>
+            <item>360</item>
+            <item>-1</item>
+        </string-array>
+
+        <string-array name="list_preference_entries">
+            <item>Entry 1</item>
+            <item>Entry 2</item>
+            <item>Entry 3</item>
+        </string-array>
+
+        <string-array name="list_preference_entry_values">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+        </string-array>
+
+        <string-array name="multi_select_list_preference_default_value" />
+
+        <string name="pref_title_system_sync_settings">System sync settings</string>
+
+        <!-- Example settings for Notifications -->
+        <string name="pref_header_notifications">Notifications</string>
+
+        <string name="pref_title_new_message_notifications">New message notifications</string>
+
+        <string name="pref_title_ringtone">Ringtone</string>
+        <string name="pref_ringtone_silent">Silent</string>
+
+        <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="Name">سيبسيشبشيسب</string>
+    <string name="submit">موافق</string>
+    <string name="scan_card">الرجاء تمرير البطاقة</string>
+    <string name="cancel">الغاء</string>
+    <string name="yes">نعم</string>
+    <string name="close">اغلاق</string>
+    <string name="Success">نجاح</string>
+
+
+        <string name="w_print">هل ترغب بطباعة نسخ التاجر؟</string>
+        <!-- Strings related to Recpit -->
+        <string name="re_date_min">التاريخ</string>
+        <string name="re_to_pan">رقم البطاقة:</string>
+        <string name="re_approval_code">رقم الحوالة:</string>
+        <string name="re_failed">معاملة فاشلة</string>
+
+        <string name="re_balance">الرصيد الحالي:</string>
+        <string name="re_operationCode">رمز العملية</string>
+
+        <string name="re_failed_code">رمز الاستجابة:</string>
+
+        <string name="re_failed_message">رسالة الفشل:</string>
+        <string name="re_sign">توقيع العميل:...........</string>
+        <string name="re_tran_amount_min">المبلغ</string>
+        <string name="re_tran_fee">العمولة:</string>
+        <string name="re_merchant">نسخة التاجر</string>
+        <!-- Bill Inquiry Fields -->
+        <string name="ReferenceId">رقم المعاملة الحكومي:</string>
+        <string name="UnitName">اسم الوحدة الحكومية:</string>
+        <string name="ServiceName">اسم الخدمة:</string>
+        <string name="PayerName">اسم العميل:</string>
+        <string name="TotalAmount">مبلغ الفاتورة:</string>
+        <string name="DueAmount">المبلغ المطلوب:</string>
+        <string name="InvoiceExpiry">تاريخ انتهاء الفاتورة:</string>
+        <string name="InvoiceStatus">حالة الفاتورة:</string>
+        <string name="BankCode">الكودالبنكى:</string>
+        <string name="Amount">المبلغ:</string>
+        <string name="DeclarantNAME">اسم المخلص:</string>
+        <string name="InstanceID">رقم مسلسل خاص بالجمارك:</string>
+        <string name="ProcStatus">حالةالشهاده:</string>
+        <string name="ProcError">وصف نتيجة العمليه:</string>
+        <string name="Office">المحطة الجمركيه:</string>
+        <string name="Declarant">رقم المخلص:</string>
+        <string name="DECNBER">رقم الشهاده الجمركيه:</string>
+        <string name="Transaction">نوع المعامله:</string>
+        <string name="Year">السنه:</string>
+        <string name="DECSER">حرف الشهاده:</string>
+    <string name="Dec.No">كود العملية:</string>
+    <string name="E_15ReceiptNumber">رقم ايصال 15 :</string>
+        <string name="SalesAmount">مبلغ الشراء:</string>
+        <string name="FixedFee">عمولة المشغل:</string>
+        <string name="Token">رقم التغذية:</string>
+        <string name="MeterNumber">رقم العداد:</string>
+    <string name="paid_amount">المبلغ المدفوع:</string>
+        <string name="Units">الوحدات:</string>
+        <string name="AccountNumber">رقم الحساب:</string>
+        <string name="ReceiptNumber">رقم ايصال المشغل:</string>
+        <string name="CustomerName">إسم العميل:</string>
+        <string name="ReferenceNumber">رقم المرجع:</string>
+        <string name="OperatorMessage">رسالة المشغل:</string>
+        <string name="studentnameenglish">اسم الطالب(بالانجليزية):</string>
+        <string name="studentnamearabic">اسم الطالب(بالعربية):</string>
+        <string name="receipt_number">رقم الايصال:</string>
+        <string name="application_id">رقم الاستمارة:</string>
+        <string name="due_amount">Operator Message</string>
+    <string name="re_account_no">رقم الحساب:</string>
+    <string name="status">الحالة:</string>
+    <string name="e15r">ايصال 15 الالكتروني:</string>
+    <string name="IP">عنوان ال IP</string>
+    <string name="port">رقم ال Port</string>
+    <string name="path">المسار</string>
+    <string name="merchantname">اسم التاجر</string>
+    <string name="merchantaddress">عنوان التاجر</string>
+    <string name="bankname">اسم البنك</string>
+    <string name="sys">تسلسل رقم الايصال</string>
+    <string name="tmk">مفتاح تشفير الجهاز</string>
+    <string name="network_configration">اعدادت الشبكة</string>
+    <string name="merchant_configuration">اعدادت التاجر</string>
+    <string name="terminal_configuration">اعدادت الجهاز</string>
+    <string name="change_merch_pass">تغير رقم التاجر السري</string>
+    <string name="merchant_configuration_desc">تغير اعدادت التاجر اسم التاجر و عنوان التاجر</string>
+    <string name="Network_Confirgation_desc">تغير اعدادت الشبكه عنوان ال IP و رقم ال Port</string>
+    <string name="terminal_configration_desc">تغير اعدادت الجهاز رقم الجهاز و رقم التاجر</string>
+    <string name="settings">الاعدادت</string>
+    <string name="history">تاريخ الحركات</string>
+    <string name="re_print">اعادة الطباعة</string>
+    <string name="language">اللغة</string>
+    <string name="client_id">رقم الجهاز</string>
+    <string name="print">طباعة</string>
+    <string name="merch_pass">رقم التاجر السري</string>
+    <string name="sdg">ج</string>
+    <string name="network_test">اختبار الشبكة</string>
+    <string name="net_timeout">زمن انتظار الشبكة:(دقائق)</string>
+
+
+    <string name="_0">نجاح</string>
+    <string name="_103">خطاء في التنسيق</string>
+    <string name="_130">تنسيق غير صالح</string>
+    <string name="_178">الطلب الأصلي غير موجود</string>
+    <string name="_158">رمز معالجة غير صالح</string>
+    <string name="_161">تجاوز حد السحب</string>
+    <string name="_191"> الوجهة غير متوفرة</string>
+    <string name="_194">معاملة مكررة</string>
+    <string name="_196">خطأ بالنظام</string>
+    <string name="_201">يرجى الاتصال بجهة إصدار البطاقة</string>
+    <string name="_205">رفض خارجي</string>
+    <string name="_251">عدم كفاية الرصيد</string>
+    <string name="_281">معلومات العميل غير صالحة</string>
+    <string name="_338">تم تجاوز حد رقم التعريف الشخصي</string>
+    <string name="_355">رقم التعريف الشخصي غير صالح</string>
+    <string name="_375">تم الوصول لحد رقم التعريف الشخصي</string>
+    <string name="_362">خطأ التشفير</string>
+    <string name="_389">هوية الجهاز غير صالحة</string>
+    <string name="_412">المعاملة غير صالحة</string>
+    <string name="_413">تم تجاوز حد التاجر</string>
+    <string name="_467">مبلغ غير صحيح</string>
+    <string name="_514">مسار 2 غير صحيح </string>
+    <string name="_536">البطاقة مقيدة</string>
+    <string name="_541">البطاقة مفقودة</string>
+    <string name="_543">بطاقة مسروقة</string>
+    <string name="_550">بطاقة مغلقة</string>
+    <string name="_552">بطاقة معلنة</string>
+    <string name="_554">بطاقة منتهية الصلاحية</string>
+    <string name="_600">معرف العميل غير صالح</string>
+    <string name="_601">تنسيق رقم بطاقة غير صالح</string>
+    <string name="_602">تنسيق تاريخ انتهاء الصلاحية غير صالح</string>
+    <string name="_603">خطأ في التنسيق</string>
+    <string name="_604">رمز العملة غير صالح</string>
+    <string name="_605">تنسيق الحساب غير صالح</string>
+    <string name="_606">تنسيق رقم تدقيق تتبع النظام غير صالح</string>
+    <string name="_607">تنسيق معلومات الدفع الشخصي غير صالح</string>
+    <string name="_608">هوية دفع غير صالحة</string>
+    <string name="_609">تنسيق رقم الهاتف غير صالح</string>
+    <string name="_610">تنسيق رقم الايصال غير صالح</string>
+    <string name="_611">تنسيق تاريخ المعاملة غير صالح</string>
+    <string name="_615">معرف الخدمة غير صالح</string>
+    <string name="_616">تنسيق رقم تتبع تتبع نظام التشغيل الأصلي غير صالح</string>
+    <string name="_617">انقطاع زمن الاتصال MCS</string>
+    <string name="_618">لا يمكن عكس هذه الخدمة</string>
+    <string name="_619">تنسيق معرف الجهاز غير صالح</string>
+    <string name="_620">تنسيق رقم التعريف الشخصي غير صالح</string>
+    <string name="_621"> المبلغ غير صالح</string>
+    <string name="_622">تنسيق مبلغ راجع النقدية غير صالح</string>
+    <string name="_696">خطاء في نظام MCS</string>
+    <string name="_632">معاملة غير صالحة  بسبب طول الايصال غير صالح</string>
+    <string name="Update_Payee_List">تحديث قائمة البائعين</string>
+    <string name="update_payee_list_desc">تحديث قائمة البائعين</string>
+    <string name="w_merchant_pass">رمز تاجر خطاء</string>
+    <string name="pay_your_bill">هل ترغب بدفع الفاتورة؟؟</string>
+    <string name="Please_Select_Value">رجاءا اختر قيمة</string>
+    <string name="processing_transaction_please_waite">معالجة الحركة يرجى الانتظار</string>
+    <string name="reprinting">  جاري إعادة طبع..................</string>
+    <string name="transaction_not_foun">المعاملة غير موجودة</string>
+    <string name="d_print">هل ترغب في إعادة طباعة الإيصال؟</string>
+    <string name="reprintcopy">************نسخة إعادة طباعة************</string>
+    <string name="select_language">الرجاء اختيار لغة؟</string>
+    <string name="do_print">لا يوجد ورق هل تريد المتابع؟</string>
+    <string name="re_sub_balance">رصيد الهاتف الحالي:</string>
+    <string name="re_despiut">رقم المنازعه المتسلسل:</string>
+    <string name="re_billInq">استعلام عن فاتورة</string>
+    <string name="Declarant_error"> رقم المخلص غير صالح</string>
+    <string name="RegistrationNumber"> رقم التسجيل: </string>
+    <string name="RegistrationSerial"> تسلسل التسجيل: </string>
+    <string name="ReceiptSerial"> تسلسل الايصال: </string>
+    <string name="ReceiptDate"> تاريخ الايصال: </string>
+
+</resources>

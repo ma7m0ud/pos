@@ -1,0 +1,408 @@
+<resources>
+    <string name="app_name">POS V 0.0.5</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_service">ServiceActivity</string>
+    <string-array name="planets_array">
+        <item>(Select currency)</item>
+        <item>SDG</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="oprators_topup_array">
+        <item>(Select operator)</item>
+        <item>Zain</item>
+        <item>MTN</item>
+        <item>Sudani</item>
+    </string-array>
+    <string-array name="oprators_billpayemnt_array">
+        <item>(Select operator)</item>
+        <item>Zain</item>
+        <item>MTN</item>
+        <item>Sudani</item>
+    </string-array>
+    <string-array name="acadmin_array">
+        <item>(Select Form Kind)</item>
+        <item>   General admission-first round</item>
+        <item> Special admission</item>
+        <item>   Sons of higher education staff</item>
+        <item> General admission-second round</item>
+        <item>  Special admission-vacant seats</item>
+        <item>  Private institutions direct admission</item>
+        <item> Diploma in public institutions</item>
+
+    </string-array>
+    <string-array name="services_array">
+        <item>(Select Service)</item>
+        <item>    purchase</item>
+        <item>   Purchase With Cash Back</item>
+        <item>   Balance Inquiry</item>
+        <item>   Mini Statement</item>
+        <item>   Bill Payment</item>
+        <item>   Bill Prepayment</item>
+        <item> Account Transfer</item>
+        <item> Card Transfer</item>
+        <item> Cash-in</item>
+        <item> Refund</item>
+        <item> Generate Voucher</item>
+        <item> Cash-out Voucher</item>
+        <item> Bill Inquiry</item>
+        <item> Cash out</item>
+        <item> Request eGovernment service</item>
+        <item> Purchase Mobile</item>
+    </string-array>
+    <string-array name="course_array">
+        <item>(Select Course)</item>
+        <item>Academic</item>
+        <item>Agricultural</item>
+        <item>commercial</item>
+        <item>Industrial</item>
+        <item>Womanly</item>
+        <item>Ahlia</item>
+        <item>Readings</item>
+    </string-array>
+    <string name="please_wait">Please Wait</string>
+
+    <!--Transactions Field Names in English-->
+    <string name="Transaction_amount">Transaction Amount</string>
+    <string name="Transaction_CurrencyCode">Currency</string>
+    <string name="cashBackAmount">Cash Back</string>
+    <string name="course_ID">Course ID:</string>
+    <string name="Form_kind">Form kind:</string>
+    <string name="INVOICENUMBER">INVOICE NUMBER:</string>
+    <string name="meter_number">Meter Number</string>
+    <string name="newPIN">New PIN</string>
+    <string name="con_newPIN">Confirm New PIN</string>
+    <string name="originalTranSystemTraceAuditNumber">Receipt Number</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="seat_number">Seat Number:</string>
+    <string name="Student_number">Student Number:</string>
+    <string name="serviceId">Service:</string>
+    <string name="operator">Operator:</string>
+    <string name="student_name">Student Name:</string>
+    <string name="toCard">To Card:</string>
+    <string name="voucherNumber">Voucher Number:</string>
+    <string name="bank_code">Bank Code:</string>
+    <string name="toaccount">To Account Number:</string>
+
+
+    <!--Transactions Field Error Names in English-->
+    <string name="Transaction_amount_error">Invalid Transaction Amount</string>
+    <string name="cashBackAmount_error">Invalid Cash Back</string>
+    <string name="INVOICENUMBER_error">Invalid Invoice Number</string>
+    <string name="meter_number_error">Invalid Meter Number(04XXXXXXXXXX)</string>
+    <string name="toaccount_error">Invalid Account Number</string>
+    <string name="Declarant_error">Invalid Declarant Number</string>
+    <string name="newPIN_error">Invalid New PIN</string>
+    <string name="con_newPIN_error">PIN Mismatch</string>
+    <string name="originalTranSystemTraceAuditNumber_error">Invalid Receipt Number</string>
+    <string name="phone_number_error">Invalid Phone Number(0XXXXXXXXX)</string>
+    <string name="mob_number_error">Invalid Phone Number(249XXXXXXXXX)</string>
+    <string name="seat_number_error">Invalid Seat Number</string>
+    <string name="serviceId_error">Invalid Service</string>
+    <string name="student_name_error">Invalid Student Name</string>
+    <string name="toCard_error">Invalid To Card</string>
+    <string name="voucherNumber_error">Invalid Voucher Number</string>
+    <string name="bank_code_error">Invalid Bank Code</string>
+    <!-- Transactions-->
+    <string name="Purchase">Purchase</string>
+    <string name="Purchase_with_cash_back">Purchase with Cash Back</string>
+    <string name="Purchase_Mobile">Purchase Mobile</string>
+    <string name="Reversal">Reversal</string>
+    <string name="Balance_Inquiry">Balance Inquiry</string>
+    <string name="Mini_Statement">Mini Statement</string>
+    <string name="Refund">Refund</string>
+    <string name="Mobile_topUp">Mobile Top-up</string>
+    <string name="Mobile_bill_payment">Mobile Bill Payment</string>
+    <string name="electricity">Electricity (NEC)</string>
+    <string name="mohe">Higher Education</string>
+    <string name="mohe_arab">Higher Education Arab</string>
+    <string name="e15">E15 Receipt:</string>
+    <string name="Customs">Customs</string>
+    <string name="Mobile_bill_inq">Mobile Bill Inquiry</string>
+    <string name="electricity_inq">Electricity Bill Inquiry</string>
+    <string name="mohe_inq">Higher Education Inquiry</string>
+    <string name="mohe_arab_inq">Higher Education Arab Inquiry</string>
+    <string name="e15_inq">E15 Receipt Inquiry</string>
+    <string name="Customs_inq">Customs Inquiry</string>
+
+    <string name="card_ransfer">Card Transfer</string>
+    <string name="account_tranfer">Account Transfer</string>
+    <string name="Cash_in">Money deposit</string>
+    <string name="generate_voucher">Money Transfer</string>
+    <string name="cash_out_voucher">Money Receive</string>
+    <string name="cash_out_voucher_amount">Money Receive With Amount</string>
+    <string name="pin_change">PIN Change</string>
+    <string name="cash_in_voucher">Deposit Money Received</string>
+    <string name="cash_out">Cash Out</string>
+
+    <string name="yes">Yes</string>
+    <string name="close">Close</string>
+    <string name="Success">Success</string>
+    <string name="w_print">Do you wish to Print Merchant Copy?</string>
+    <string name="pin_content_desc">PIN input field</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="merchant_label_text">Merchant Password</string>
+    <string name="magnetic_card_test">Magnetic Card</string>
+    <string name="track1">Track1</string>
+    <string name="track2">Track2</string>
+    <string name="track3">Track3</string>
+    <string name="read_card">Swipe Card</string>
+    <string name="quit">quit</string>
+    <string name="error_open_magnetic_card">Could not open magnetic card device</string>
+    <string name="error">Error</string>
+    <string name="title_activity_sacn_card">SacnCardActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="Name">sdsdsd</string>
+    <!-- Strings related to Recpit -->
+    <string name="re_pruches">********** Purchase *********</string>
+    <string name="re_date">Time:</string>
+    <string name="re_date_min">Date</string>
+    <string name="re_time">Date:</string>
+    <string name="re_merchant_name">Merchant ID:</string>
+    <string name="re_termianlId">Terminal ID:</string>
+    <string name="re_pan">Card Number:</string>
+    <string name="re_to_pan">Card Number:</string>
+    <string name="re_card_holderName">Card Holder Name:</string>
+    <string name="re_exp_date">ExpiryDate:</string>
+    <string name="re_success">APPROVED</string>
+    <string name="re_approval_code">Voucher Number:</string>
+    <string name="re_failed">Failed Transaction</string>
+    <string name="re_balance">Current Balance:</string>
+    <string name="re_operationCode">Operation Code:</string>
+    <string name="paid_amount">Paid Amount:</string>
+    <string name="re_failed_code">Response Code:</string>
+    <string name="re_sub_balance">Current Phone Balance:</string>
+    <string name="re_failed_message">Failed Message:</string>
+    <string name="re_sign">Customer Signature: ………………….</string>
+    <string name="re_tran_id">Transaction ID:</string>
+    <string name="re_re_num">Receipt No:</string>
+    <string name="re_tran_amount">Amount:</string>
+    <string name="re_tran_amount_min">Amount</string>
+    <string name="re_tran_fee">Tran Fee:</string>
+    <string name="re_ref_num">Reference No:</string>
+    <string name="re_auth_code">AUTH No:</string>
+    <string name="re_clients">Customer Copy</string>
+    <string name="re_merchant">Merchant Copy</string>
+    <!-- Bill Inquiry Fields -->
+    <string name="TotalBill">Total Bill:</string>
+    <string name="BilledAmount">Billed Amount:</string>
+    <string name="LastInvoiceDate">Last Invoice Date:</string>
+    <string name="ContractNumber">Contract Number:</string>
+    <string name="UnbilledAmount">Unbilled Amount:</string>
+    <string name="ReferenceId">Reference ID:</string>
+    <string name="UnitName">Unit Name:</string>
+    <string name="ServiceName">Service Name:</string>
+    <string name="PayerName">Citizen  Name:</string>
+    <string name="TotalAmount">Total Amount:</string>
+    <string name="DueAmount">Due Amount:</string>
+    <string name="InvoiceExpiry">Expiry date:</string>
+    <string name="InvoiceStatus">Invoice Status:</string>
+    <string name="BankCode">Bank Code:</string>
+    <string name="Amount">Amount:</string>
+    <string name="DeclarantNAME">Declarant NAME:</string>
+    <string name="InstanceID">InstanceID:</string>
+    <string name="ProcStatus">ProcStatus:</string>
+    <string name="ProcError">ProcError:</string>
+    <string name="Office">Office:</string>
+    <string name="Declarant">Declarant Number:</string>
+    <string name="DECNBER">DECNBER:</string>
+    <string name="Transaction">Transaction:</string>
+    <string name="Year">Year</string>
+    <string name="DECSER">DECSER</string>
+    <string name="Dec.No">Dec.No:</string>
+    <string name="SalesAmount">Sales Amount:</string>
+    <string name="FixedFee">Fixed Fee:</string>
+    <string name="Token">Token:</string>
+    <string name="MeterNumber">MeterNumber:</string>
+    <string name="Units">Units:</string>
+    <string name="AccountNumber">Account Number:</string>
+    <string name="ReceiptNumber">Receipt Number:</string>
+    <string name="CustomerName">Customer Name:</string>
+    <string name="ReferenceNumber">Reference Number:</string>
+    <string name="OperatorMessage">Operator Message:</string>
+    <string name="studentnameenglish">StudentName(English):</string>
+    <string name="studentnamearabic">StudentName(Arabic):</string>
+    <string name="receipt_number">Receipt Number:</string>
+    <string name="application_id">ApplicationID:</string>
+    <string name="due_amount">Operator Message:</string>
+    <string name="E_15ReceiptNumber">E-15ReceiptNumber:</string>
+
+    <string name="network_test">NetWork Test</string>
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="submit">Submit</string>
+    <string name="scan_card">Plaes Sacn Your Card</string>
+    <string name="cancel">Cancel</string>
+    <string name="ebs">EBS</string>
+    <string name="re_account_no">ِِAccount No:</string>
+    <string name="status">Status:</string>
+    <string name="e15r">E15 Receipt</string>
+    <string name="IP">IP</string>
+    <string name="port">Port</string>
+    <string name="path">Path</string>
+    <string name="merchantname">Merchant Name</string>
+    <string name="merchantaddress">Merchant Address</string>
+    <string name="bankname">Bank Name</string>
+    <string name="sys">Recepit Number Sequence</string>
+    <string name="tmk">Terminal Master Key</string>
+    <string name="network_configration">Network Configration</string>
+    <string name="merchant_configuration">Merchant Configuration</string>
+    <string name="terminal_configuration">Terminal Configuration</string>
+    <string name="change_merchant_pin">Change Merchant Password</string>
+    <string name="change_merch_pass">Change Merchant Password</string>
+    <string name="merchant_configuration_desc">Change merchant Configuration like Merchant Name , Merchant Address</string>
+    <string name="Network_Confirgation_desc">Change Network Confirgation  like ip address and port number</string>
+    <string name="terminal_configration_desc">Change Terminal Configration like Terminal id and clinet id</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="re_print">Re-Print</string>
+    <string name="language">Language</string>
+    <string name="client_id">Client Id</string>
+    <string name="print">Print</string>
+    <string name="merch_pass">Merchant Password</string>
+    <string name="sdg">SDG</string>
+    <string name="net_timeout">Network Timeout:(MINUTES)</string>
+    <string name="_0">Approval</string>
+    <string name="_103">Format Error</string>
+    <string name="_130"> Invalid format</string>F
+    <string name="_178"></string>
+    <string name="_158">Invalid processing code</string>
+    <string name="_161">Withdrawal limit exceeded</string>
+    <string name="_191"> Destination not available</string>
+    <string name="_194">Duplicate transaction</string>
+    <string name="_196">System error</string>
+    <string name="_201">Contact Card Issuer</string>
+    <string name="_205">External decline</string>
+    <string name="_251">Insufficient fund</string>
+    <string name="_281">Wrong customer information</string>
+    <string name="_338">PIN tries limit exceeded</string>
+    <string name="_355">Invalid PIN</string>
+    <string name="_375">PIN Tries Limit Reached</string>
+    <string name="_362">Encryption error</string>
+    <string name="_389">Invalid terminal ID</string>
+    <string name="_412">Invalid transaction</string>
+    <string name="_413">Merchant limit exceeded</string>
+    <string name="_467">Invalid amount</string>
+    <string name="_514">Invalid track 2</string>
+    <string name="_536">Restricted card</string>
+    <string name="_541">Lost card</string>
+    <string name="_543">Stolen card</string>
+    <string name="_550">Closed card</string>
+    <string name="_552">Declared card</string>
+    <string name="_554">Expired card</string>
+    <string name="_600">Invalid client Id</string>
+    <string name="_601">Invalid Card Number Format</string>
+    <string name="_602">Invalid Expiry Date Format</string>
+    <string name="_603">Format Error</string>
+    <string name="_604">Invalid Currency Code</string>
+    <string name="_605">Invalid Account Format</string>
+    <string name="_606">Invalid System Trace Audit Number Format</string>
+    <string name="_607">Invalid Personal Payment Information Format</string>
+    <string name="_608">Invalid Payee Identification</string>
+    <string name="_609">Invalid Phone Number Format</string>
+    <string name="_610">Invalid voucher number Format</string>
+    <string name="_611">Invalid Transaction Date Format</string>
+    <string name="_615">Invalid Service Id</string>
+    <string name="_616">Invalid original transaction system trace audit number Format</string>
+    <string name="_617">MCS Time out</string>
+    <string name="_618">This service cannot be reversed</string>
+    <string name="_619">Invalid Terminal Id Format</string>
+    <string name="_620">Invalid PIN Format</string>
+    <string name="_621">Invalid Amount Format</string>
+    <string name="_622">Invalid Cash Back Amount Format</string>
+    <string name="_696">MCS System Error</string>
+    <string name="_632">MCS Invalid Cash out Transaction due to Invalid voucher length</string>
+    <string name="Update_Payee_List">Update Payee List</string>
+    <string name="update_payee_list_desc">update payee list from EBS</string>
+    <string name="w_merchant_pass">Wrong Merchant Password</string>
+    <string name="pay_your_bill">Do you wish to Pay your bill?</string>
+    <string name="processing_transaction_please_waite">Processing Transaction Please waite</string>
+    <string name="reprinting">Reprinting..................</string>
+    <string name="transaction_not_foun">Transaction Not Found</string>
+    <string name="d_print">Do you wish to reprint the receipt?</string>
+    <string name="reprintcopy">************ Re print Copy ***********</string>
+    <string name="select_language">select a language?</string>
+    <string name="Please_Select_Value">Please Select One</string>
+    <string name="re_despiut">Dispute Reference Number:</string>
+    <string name="re_billInq">Bill Inquiry</string>
+    <string name="RegistrationNumber"> Registration Number: </string>
+    <string name="RegistrationSerial"> Registration Serial: </string>
+    <string name="ReceiptSerial"> Receipt Serial: </string>
+    <string name="ReceiptDate"> Receipt Date: </string>
+
+
+</resources>

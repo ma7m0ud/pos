@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pos.mahmoud.pos">
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- SD卡操作权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 网络访问权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- Adroid6.0 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- 自适应屏幕分辨率 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activites.ServiceActivity"
+            android:label="@string/title_activity_service"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activites.SacnCardActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_sacn_card"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activites.MegneticActivity" />
+        <activity
+            android:name=".activites.PINActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name=".activites.ProccessingActivity" />
+        <activity android:name=".activites.ConfigrationActivity" />
+        <activity android:name=".activites.BillInqueryActivity" />
+        <activity
+            android:name=".activites.ResponseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activites.ReprintActivity"
+            android:label="@string/re_print" />
+        <activity android:name=".activites.HistorySummeryActivity" />
+        <activity
+            android:name=".activites.PinEnteryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activites.MainConfigActivity"
+            android:label="@string/settings" />
+        <activity
+            android:name=".activites.HistoryActivity"
+            android:label="@string/history" />
+
+    </application>
+
+</manifest>
